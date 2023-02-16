@@ -1,0 +1,106 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Public Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  
+}
+
+.container {
+  display: grid;
+  grid: "main lateral";
+  grid-column-gap: 17px;
+  padding: 38px 35px 0;
+  width: 900px;
+  height: 415px;
+  background-color: #f7f7f7;
+}
+
+.main {
+  grid-area: main;
+}
+
+.conteudo-lateral {
+  grid-area: lateral;
+}
+
+.video-principal {
+  width: 543px;
+  height: 217px;
+  background-color: #c4c4c4;
+}
+
+.titulo-principal {
+  font-weight: 700;
+  font-size: 18px;
+  padding-top: 12px;
+}
+
+.visualizacoes-principal {
+  font-size: 14px;
+  font-weight: 300;
+  padding-top: 7px;
+}
+
+.descricao {
+  font-size: 16px;
+  padding-top: 9px;
+}
+
+.propaganda {
+  background-color: #c4c4c4;
+  width: 270px;
+  height: 56px;
+  font-size: 11px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-lateral {
+  width: 101px;
+  height: 71px;
+  background-color: #c4c4c4;
+  padding-top: 16px;
+  grid-area: video;
+}
+
+.titulo-lateral {
+  grid-area: titulo;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.canal {
+  grid-area: canal;
+  font-size: 11px;
+}
+
+.visualizacoes-lateral {
+  grid-area: visualizacoes;
+  font-size: 11px;
+}
+
+.postado {
+  grid-area: postado;
+  font-size: 11px;
+}
+
+.videos li {
+  display: grid;
+  grid:
+    "video titulo"
+    "video canal"
+    "video visualizacoes"
+    "video postado";
+  padding-top: 16px;
+}
+
+h4 {
+  font-weight: 300;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
